@@ -1,1 +1,1 @@
-# NumberGenerator
+# Number-Generator

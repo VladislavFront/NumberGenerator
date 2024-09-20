@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генератор случайных чисел</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/adaptivIndex.css">
+
+  <script src="../js/app.js" defer></script>
+
+</head>
+<body>
+  
+  <main class="main">
+    <h1 class="title">Генератор случайных чисел</h1>
+
+    <h1 id="h1" class="h1">0</h1>
+
+    <div class="flex-container">
+
+      <div class="container-Min">
+        <h1 id="min-title" class="min-title">От: 0</h1>
+        <button id="support-button-plus" class="buttonplus" onclick="plusMin()"> <i class="fa-solid fa-plus"> </i> </button>
+        <button id="support-button-minus" class="buttonminus" onclick="minusMin()"> <i class="fa-solid fa-minus"> </i> </button>
+      </div>
+
+      <div class="container-Max">
+        <h1 id="max-title" class="max-title">До: 0</h1>
+        <button id="support-button-plus" class="buttonplus" onclick="plusMax()"> <i class="fa-solid fa-plus"> </i> </button>
+        <button id="support-button-minus" class="buttonminus" onclick="minusMax()"> <i class="fa-solid fa-minus"> </i> </button>
+      </div>
+    
+    </div>
+
+    <div class="btn-support-container">
+      <button id="btn-generate" onclick="generate()" class="btn-support">сгенирировать</button>
+      <button id="btn-reset" onclick="reset()" class="btn-support">сбросить</button>
+    </div>
+  </main>
+
+</body>
+</html>
